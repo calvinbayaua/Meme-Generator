@@ -1,12 +1,38 @@
-# React + Vite
+# 😂 Meme Generator  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Meme Generator is a fun React-based web app that allows users to create and customize memes. It fetches meme images from the Imgflip API and lets users add their own text to make hilarious creations!  
 
-Currently, two official plugins are available:
+## 📖 Learning Journey
+This project was built while following [Scrimba's Learn React Course](https://scrimba.com/learn-react-c0e).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎨 Features  
+- Fetches meme images from the [Imgflip API](https://imgflip.com/api)  
+- Displays a random meme image  
+- Allows users to input and edit **top and bottom text**  
+- A button to fetch a **new random meme image**  
+- Instant preview of the meme with the customized text  
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack  
+- **Frontend:** React, HTML, CSS, JavaScript  
+- **State Management:** React Hooks (`useState`, `useEffect`)  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 How It Works  
+1. Click the "New Meme" button to fetch a random meme image.  
+2. Enter custom **top and bottom text** in the input fields.  
+3. The app overlays the text onto the image in real-time.  
+4. Generate another meme anytime by clicking "New Meme"!  
+
+## 📦 Installation & Setup  
+1. **Clone the repository:**  
+   ```sh
+   git clone https://github.com/calvinbayaua/Meme-Generator.git  
+   cd Meme-Generator
+   ```
+2. **Install dependencies:**  
+   ```sh
+   npm install
+   ```
+3. **Start the development server:**  
+   ```sh
+   npm run dev
+   ```
