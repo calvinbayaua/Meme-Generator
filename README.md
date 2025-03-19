@@ -9,7 +9,7 @@ This project was built while following [Scrimba's Learn React Course](https://sc
 - Fetches meme images from the [Imgflip API](https://imgflip.com/api)  
 - Displays a random meme image  
 - Allows users to input and edit **top and bottom text**  
-- A button to fetch a **new random meme image**  
+- A button to **get a new meme image**  
 - Instant preview of the meme with the customized text  
 
 ## 🛠️ Tech Stack  
@@ -17,10 +17,9 @@ This project was built while following [Scrimba's Learn React Course](https://sc
 - **State Management:** React Hooks (`useState`, `useEffect`)  
 
 ## 🎯 How It Works  
-1. Click the "New Meme" button to fetch a random meme image.  
-2. Enter custom **top and bottom text** in the input fields.  
-3. The app overlays the text onto the image in real-time.  
-4. Generate another meme anytime by clicking "New Meme"!  
+1. Enter custom **top and bottom text** in the input fields.  
+2. The app overlays the text onto the image in real-time.  
+3. Get another meme by clicking "Get a new meme image!"  
 
 ## 📦 Installation & Setup  
 1. **Clone the repository:**  
